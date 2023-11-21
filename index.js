@@ -7,7 +7,7 @@ for (let i = 0; i < tecnologias.length; i++) {
   xp = i * 1000
 }
 
- if (xp < 1000) {
+ if (xp <= 1000) {
    level = "Ferro";
  } else if (xp >= 1001 && xp <= 2000) {
    level = "Bronze";
